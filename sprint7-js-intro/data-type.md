@@ -39,7 +39,7 @@
    1. `obiect simplu`: se scriu sub forma `{}`, `{user: "Tiberiu"}`
    2. `obiect instatiabile` (cu clasa definita): `new DateTime`
    3. `obiect nedefinit`: are doar valoarea `null` (nu are clasa, nici forma)
-   4. liste: (array) `[]`, se scriu intre paranteze patrate, si fiecare valoare este despartita de virgula. ex: `[2,3]`
+   4. liste: (array) `[]`, elementele se scriu intre paranteze patrate, si fiecare element este despartit de virgula. ex: `[2, 3]`
 7. `bigint` - este un tip de date big integer (numar mare) - un fel de clasa definita
 8. `function` - functi
 9. `Promise` - promisiuni
