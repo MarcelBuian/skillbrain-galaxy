@@ -46,3 +46,6 @@
    1. if simplu: `if (conditie booleana [true/false]) { instructiune1; instructiune2; etc. }`
    2. if else: `if (conditie booleana) {ins1, ins2} else {ins1, ins2}`
 2. `function`:
+   1. clasic
+   2. array
+3. `while`
