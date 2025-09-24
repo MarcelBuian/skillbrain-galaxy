@@ -25,21 +25,23 @@
 
 4. `undefined`: este un top de date aparte care are doar o singura valoare, care nu e valoare de fapt
 
-   1. este un tip de date inca nedefinit.
+   1. este un tip de date (declarat, dar) inca nedefinit.
    2. de obicei apare atunci cand variabila nu este declarata inca (nu are valoare). (ex: `let a`)
 
 5. `symbol`: este un tip de date unic, si nu poate fi schimbat, nici folosit in operatii.
+
    1. Este un tip de date simbolic
    2. Noi nu il vom folosi.
    3. Se definiste cu un parametru. (ex `const a = Symbol("Ana")`)
 
+6. `null`: obiect nedefinit, si fara clasa (nu are forma)
+
 ## Complexe:
 
-6. `object`
+7. `object`
    1. `obiect simplu`: se scriu sub forma `{}`, `{user: "Tiberiu"}`
    2. `obiect instatiabile` (cu clasa definita): `new DateTime`
-   3. `obiect nedefinit`: are doar valoarea `null` (nu are clasa, nici forma)
-   4. liste: (array) `[]`, elementele se scriu intre paranteze patrate, si fiecare element este despartit de virgula. ex: `[2, 3]`
-7. `bigint` - este un tip de date big integer (numar mare) - un fel de clasa definita
-8. `function` - functi
+   3. liste: (`array`) `[]`, elementele se scriu intre paranteze patrate, si fiecare element este despartit de virgula. ex: `[2, 3]`
+      ?8. `bigint` - este un tip de date big integer (numar mare) - un fel de clasa definita
+8. `function` - functii
 9. `Promise` - promisiuni
