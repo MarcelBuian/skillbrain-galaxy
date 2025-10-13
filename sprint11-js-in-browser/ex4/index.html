@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="./app.js"></script>
+</head>
+<body>
+    <h2>Demo JS in browser</h2>
+
+    <a href="https://google.com" id="my-element">Bum 1!</a>
+
+    <hr>
+
+    <!-- return false este echivalentul preventDefault() atunci cand codul js este intr-o linie -->
+    <a href="https://google.com" id="dsfsdfs" onclick="alert('hey'); return false;">Bum 2!</a>
+
+    <hr>
+
+
+    <form id="my-form" action="trimite-form" method="post">
+        <label for="nume">Nume:</label><br>
+        <input type="text" id="nume" name="nume" placeholder="Introdu numele"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="mail" placeholder="Introdu emailul"><br><br>
+
+        <label for="parola">Parolă:</label><br>
+        <input type="password" id="parola" name="parola" placeholder="Introdu parola"><br><br>
+
+        <button type="submit">Trimite</button>
+    </form>
+
+
+    <hr>
+    <div id="div-test">
+        <button id="button-test">Button test</button>
+    </div>
+
+</body>
+</html>
