@@ -64,6 +64,8 @@ const speak = (text) => {
 
     console.log(`Speaking: ${text}`);
 
+    // toastr.info(text, "Speaking...");
+
     VoiceRSS.speech({
         key: '52bfbd75e1c24955831329926a53c5ed',
         src: text,
