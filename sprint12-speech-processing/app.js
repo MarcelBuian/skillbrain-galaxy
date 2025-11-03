@@ -30,6 +30,10 @@ const onBtnTellAJokeClick = () => {
 
             checkSpeakButtonStatus();
         })
+        .finally(() => {
+            // instructiuni bune
+            console.log("joke was told!");
+        })
     ;
 }
 
