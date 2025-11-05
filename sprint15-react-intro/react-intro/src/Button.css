@@ -1,0 +1,29 @@
+span.button {
+  background-color: #9fbf9b;   /* culoarea de fundal */
+  color: white;                /* culoarea textului */
+  padding: 10px 20px;          /* spațiere internă */
+  border: none;                /* fără chenar */
+  border-radius: 8px;          /* colțuri rotunjite */
+  cursor: pointer;             /* cursor de mână la hover */
+  font-size: 16px;             /* mărimea textului */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-right: 5px;
+}
+
+/* efect la hover */
+span.button:hover {
+  background-color: #438130;
+  transform: scale(1.05);
+}
+
+/* efect la click */
+span.button:active {
+  background-color: #004494;
+  transform: scale(0.98);
+}
+
+/* opțional: focus vizibil pentru accesibilitate */
+span.button:focus {
+  outline: 2px solid #80bdff;
+  outline-offset: 2px;
+}
