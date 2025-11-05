@@ -7,9 +7,32 @@ const name = 'Josh Perez';
 const element = 
   <>
     <h1>Title</h1>
-    <h1 className="my-class" tagIndex="valoare">Hello, {name}</h1>
+    <h1 className="my-class">Hello, {name}</h1>
   </>
 ;
+
+const buttons = [
+  {
+    "name": "Prim buton",
+    "color": "red",
+  },
+  {
+    "name": "Al doilea buton",
+    "color": "yellow",
+  },
+  {
+    "name": "3 buton",
+    "color": "blue",
+  },
+  {
+    "name": "Patru buton",
+    "color": "black",
+  },
+  {
+    "name": "Ultim buton",
+    "color": "#244c57ff",
+  }
+];
 
 function App() {
   return (
@@ -37,6 +60,16 @@ function App() {
 
       <MyButton></MyButton>
       <MyButton name="Best Button"></MyButton>
+
+      <hr />
+
+      {
+        buttons.map((btn, index) => (
+          <Button key={index} color={btn.color} name={btn.name} />
+        ))
+      }
+
+
     </div>
   );
 }
