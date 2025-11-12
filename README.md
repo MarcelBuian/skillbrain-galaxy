@@ -1,12 +1,12 @@
 # skillbrain-galaxy
 
 ## comenzi utile de linux
+
 - "cd skillbrain-galaxy" - schimbam folderul in folderul "git"
 - "cd .." - schimbam folderul parinte
 - "ls" - vedem ce se afla in interiorul dosarului curent
 - "pwd" - vedem path (locatia) directoriul curent
 - "CTRL + C" - abandonam comanda
-
 
 ## GIT: cum incepem o tema noua?
 
@@ -24,3 +24,11 @@
 - Cream un ticket pe notion cu linkul la PR
 - Asteptam PR sa fie confirmat
 - Apasam pe Merge la PR
+
+## Cum sa cream un proiect nou de react?
+
+1. Instalam nodejs (daca nu este deja instalat)
+2. Scriem comanda `npx create-react-app aplicatia-mea` - inlocuiti `aplicatia-mea` cu un nume mai potrivit
+3. Intram in aplicatie cu comanda: `cd aplicatia-mea` - inlocuiti `aplicatia-mea` cu numele aplicatiei
+4. Modificati codul si creati componentele necesare (js + css) + Structurati componentele in dosarele potrivite
+5. Cand vrem sa rulam proiectul apelam `npm start`
