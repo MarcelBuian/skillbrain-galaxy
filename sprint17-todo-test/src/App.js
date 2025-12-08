@@ -17,12 +17,15 @@ export default function TaskApp() {
   );
 
   function handleAddTodo(title, done) {
+    todos[0].done = false;
+    setTodos(todos);
+    
     setTodos(
       [
         {
           id: nextId,
-          title: title,
-          done: done,
+          title,
+          done,
         },
         ...todos,
       ]
@@ -54,6 +57,9 @@ export default function TaskApp() {
 
     // setTodos(todos.filter(t => t.id !== todoId));
   }
+
+
+
 
   return (
     <>
