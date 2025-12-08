@@ -13,7 +13,7 @@ const Checkbox = (props) => {
     if (props.onChange) {
       props.onChange(checked);
     }
-  }, [checked]);
+  }, [checked, props]);
 
   return (
     <div className="round">
